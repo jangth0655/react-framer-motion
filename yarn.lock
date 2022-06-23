@@ -123,7 +123,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@18.0.14":
+"@types/react@*", "@types/react@^18.0.12", "@types/react@18.0.14":
   "integrity" "sha512-x4gGuASSiWmo0xjDLpm5mPb52syZHJx02VKbqUKdLmKtAwIh63XClGsiTI1K6DO5q7ox4xAsQrU+Gl3+gGXF9Q=="
   "resolved" "https://registry.npmjs.org/@types/react/-/react-18.0.14.tgz"
   "version" "18.0.14"
@@ -582,6 +582,37 @@
     "is-callable" "^1.1.4"
     "is-date-object" "^1.0.1"
     "is-symbol" "^1.0.2"
+
+"esbuild-darwin-arm64@0.14.47":
+  "integrity" "sha512-seCmearlQyvdvM/noz1L9+qblC5vcBrhUaOoLEDDoLInF/VQ9IkobGiLlyTPYP5dW1YD4LXhtBgOyevoIHGGnw=="
+  "resolved" "https://registry.npmjs.org/esbuild-darwin-arm64/-/esbuild-darwin-arm64-0.14.47.tgz"
+  "version" "0.14.47"
+
+"esbuild@^0.14.27":
+  "integrity" "sha512-wI4ZiIfFxpkuxB8ju4MHrGwGLyp1+awEHAHVpx6w7a+1pmYIq8T9FGEVVwFo0iFierDoMj++Xq69GXWYn2EiwA=="
+  "resolved" "https://registry.npmjs.org/esbuild/-/esbuild-0.14.47.tgz"
+  "version" "0.14.47"
+  optionalDependencies:
+    "esbuild-android-64" "0.14.47"
+    "esbuild-android-arm64" "0.14.47"
+    "esbuild-darwin-64" "0.14.47"
+    "esbuild-darwin-arm64" "0.14.47"
+    "esbuild-freebsd-64" "0.14.47"
+    "esbuild-freebsd-arm64" "0.14.47"
+    "esbuild-linux-32" "0.14.47"
+    "esbuild-linux-64" "0.14.47"
+    "esbuild-linux-arm" "0.14.47"
+    "esbuild-linux-arm64" "0.14.47"
+    "esbuild-linux-mips64le" "0.14.47"
+    "esbuild-linux-ppc64le" "0.14.47"
+    "esbuild-linux-riscv64" "0.14.47"
+    "esbuild-linux-s390x" "0.14.47"
+    "esbuild-netbsd-64" "0.14.47"
+    "esbuild-openbsd-64" "0.14.47"
+    "esbuild-sunos-64" "0.14.47"
+    "esbuild-windows-32" "0.14.47"
+    "esbuild-windows-64" "0.14.47"
+    "esbuild-windows-arm64" "0.14.47"
 
 "escalade@^3.1.1":
   "integrity" "sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw=="
@@ -1577,7 +1608,7 @@
   "resolved" "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
   "version" "4.2.0"
 
-"postcss@^8.0.0", "postcss@^8.1.0", "postcss@^8.2.14", "postcss@^8.3.3", "postcss@^8.4.14", "postcss@>=8.0.9":
+"postcss@^8.0.0", "postcss@^8.1.0", "postcss@^8.2.14", "postcss@^8.3.3", "postcss@^8.4.13", "postcss@^8.4.14", "postcss@>=8.0.9":
   "integrity" "sha512-E398TUmfAYFPBSdzgeieK2Y1+1cpdxJx8yXbK/m57nRhKSmk1GB2tO4lbLBtlkfPQTDKfe4Xqv1ASWPpayPEig=="
   "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.4.14.tgz"
   "version" "8.4.14"
@@ -1624,7 +1655,7 @@
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   "version" "5.1.1"
 
-"react-dom@^17.0.2 || ^18.0.0-0", "react-dom@>=16.8 || ^17.0.0 || ^18.0.0", "react-dom@18.2.0":
+"react-dom@^17.0.2 || ^18.0.0-0", "react-dom@^18.1.0", "react-dom@>=16.8 || ^17.0.0 || ^18.0.0", "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -1637,7 +1668,7 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.8 || ^17.0.0 || ^18.0.0", "react@18.2.0":
+"react@^17.0.2 || ^18.0.0-0", "react@^18.1.0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.8 || ^17.0.0 || ^18.0.0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -1711,6 +1742,13 @@
   "version" "3.0.2"
   dependencies:
     "glob" "^7.1.3"
+
+"rollup@^2.59.0":
+  "integrity" "sha512-VSE1iy0eaAYNCxEXaleThdFXqZJ42qDBatAwrfnPlENEZ8erQ+0LYX4JXOLPceWfZpV1VtZwZ3dFCuOZiSyFtQ=="
+  "resolved" "https://registry.npmjs.org/rollup/-/rollup-2.75.7.tgz"
+  "version" "2.75.7"
+  optionalDependencies:
+    "fsevents" "~2.3.2"
 
 "run-parallel@^1.1.9":
   "integrity" "sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA=="
@@ -1922,6 +1960,22 @@
   "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz"
   "version" "0.20.2"
 
+"typeit-react@^2.5.1-alpha.0":
+  "integrity" "sha512-ORPc/tHtsnBLe273RAORISPyUEU0lsALE7Saw2FoysnMT9tTP8WUv7o5VQZAAiR5di6seAm/wxGCU8Cp+5Ap8A=="
+  "resolved" "https://registry.npmjs.org/typeit-react/-/typeit-react-2.5.1-alpha.0.tgz"
+  "version" "2.5.1-alpha.0"
+  dependencies:
+    "@types/react" "^18.0.12"
+    "react" "^18.1.0"
+    "react-dom" "^18.1.0"
+    "typeit" "^8.6.1-alpha.0"
+    "vite" "^2.9.12"
+
+"typeit@^8.6.1-alpha.0":
+  "integrity" "sha512-kX3sQDHdM3LCtw0T82hdv1bYsOAUixqLyrs0gmqDZUcbzeSEhZd2sZ+Mkrdpf4a9yr214c/9iemqWWdtMWTVWA=="
+  "resolved" "https://registry.npmjs.org/typeit/-/typeit-8.6.1-alpha.0.tgz"
+  "version" "8.6.1-alpha.0"
+
 "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta", "typescript@>=3.3.1", "typescript@4.7.4":
   "integrity" "sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ=="
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.7.4.tgz"
@@ -1953,6 +2007,18 @@
   "integrity" "sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA=="
   "resolved" "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz"
   "version" "2.3.0"
+
+"vite@^2.9.12":
+  "integrity" "sha512-suxC36dQo9Rq1qMB2qiRorNJtJAdxguu5TMvBHOc/F370KvqAe9t48vYp+/TbPKRNrMh/J55tOUmkuIqstZaew=="
+  "resolved" "https://registry.npmjs.org/vite/-/vite-2.9.12.tgz"
+  "version" "2.9.12"
+  dependencies:
+    "esbuild" "^0.14.27"
+    "postcss" "^8.4.13"
+    "resolve" "^1.22.0"
+    "rollup" "^2.59.0"
+  optionalDependencies:
+    "fsevents" "~2.3.2"
 
 "which-boxed-primitive@^1.0.2":
   "integrity" "sha512-bwZdv0AKLpplFY2KZRX6TvyuN7ojjr7lwkg6ml0roIy9YeuSr7JS372qlNW18UQYzgYK9ziGcerWqZOmEn9VNg=="
